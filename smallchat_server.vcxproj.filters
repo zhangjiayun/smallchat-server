@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="chatserversrc">
+      <UniqueIdentifier>{a057ad91-4ea0-404c-88b4-880ad719e459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{6d5534e9-30ea-4131-8e6f-f41eb4bfdbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pubutils">
+      <UniqueIdentifier>{eddd14c5-24fa-4804-a50d-876a8e51f3e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chatserversrc\ChatServer.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserversrc\main.cpp">
+      <Filter>chatserversrc</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Channel.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Sockets.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\TcpServer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chatserversrc\ChatServer.h">
+      <Filter>chatserversrc</Filter>
+    </ClInclude>
+    <ClInclude Include="pubutils\platform.h">
+      <Filter>pubutils</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Channel.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Sockets.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TcpServer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
